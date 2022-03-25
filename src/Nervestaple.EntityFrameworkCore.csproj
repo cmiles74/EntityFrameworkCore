@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Nervestaple.EntityFrameworkCore</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.4.2</Version>
+    <Version>0.5.0-rc</Version>
     <Company>Nervestaple Development</Company>
     <Product>Nervestaple.EntityFrameworkCore</Product>
     <Description>Wraps EntityFrameworkCore to help create database backed respositories</Description>
