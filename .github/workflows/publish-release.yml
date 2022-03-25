@@ -32,3 +32,4 @@ jobs:
         with:
           PROJECT_FILE_PATH: src/Nervestaple.EntityFrameworkCore.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          TAG_COMMIT: false
