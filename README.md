@@ -3,7 +3,12 @@
 # Nervestaple.EntityFrameworkCore
 
 This project provides library code to make it easier to code up repositories
-backed by databases using [Microsoft's EntityFrameworkCore library][1].
+backed by databases using [Microsoft's EntityFrameworkCore library][1]. It's
+available on [NuGet.org][0], you can follow the directions on that page to add 
+it to your project.
+
+* [Nervestaple.EntityFrameworkCore NuGet Package][0]
+
 All of the code needed to handle the icky stuff has already been coded up, all
 you need to do is write up the "entity" class and extend the provided 
 repositories. You may use the [fluent API][2] if you prefer but these examples
@@ -86,7 +91,7 @@ Project Icon made by [Freepik](https://www.freepik.com/) from
 [Creative Commons license](http://creativecommons.org/licenses/by/3.0/).
 
 ----
-
+[0]: https://www.nuget.org/packages/Nervestaple.EntityFrameworkCore/
 [1]: https://docs.microsoft.com/en-us/ef/core/
 [2]: https://docs.microsoft.com/en-us/ef/core/modeling/#use-fluent-api-to-configure-a-model
 [4]: http://www.doxygen.nl/
