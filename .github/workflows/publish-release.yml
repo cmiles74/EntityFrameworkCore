@@ -27,3 +27,8 @@ jobs:
         run: dotnet pack --configuration Release
       - name: Publish Release Package
         run: dotnet nuget push src/bin/Release/*.nupkg --api-key ${{secrets.CI_PUBLISH_PKG_PAT}} --source https://nuget.pkg.github.com/cmiles74/index.json --skip-duplicate
+      - name: Publish Release Package to NuGet
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/Nervestaple.EntityFrameworkCore.csproj
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
