@@ -1,3 +1,5 @@
+![Continuous Integration](https://github.com/cmiles74/EntityFrameworkCore/actions/workflows/ci.yml/badge.svg)
+
 # Nervestaple.EntityFrameworkCore
 
 This project provides library code to make it easier to code up repositories
@@ -63,26 +65,19 @@ We extend the provided repository and fill in our context. You get the CRUD
 methods for free! We have a larger (and runnable) example you can look at to
 get a better idea how things work for real.
 
-* Nervestaple WebAPI To Do Example REST service
-
-This library is a work in progress, please feel free to fork and send me pull
-requests! `:-D`
-
 ## Documentation
 
-This project uses [Doxygen] for documentation. Doxygenn will collect 
+This project uses [Doxygen][4] for documentation. Doxygen will collect 
 inline comments from your code, along with any accompanying README files, and 
 create a documentation website for the project. If you do not have Doxygen 
 installed, you can download it from their website and place it on your path. 
 To run Doxygen...
 
-    doxygen
+    $ cd src
+    $ doxygen
 
-The documentation will be written to the `doc/html` folder at the root of the 
-project, you can read this documentation with your web browser.
-
-The current version of this documentation is available through the GitLab
-project.
+The documentation will be written to the `doc/html` folder, you can read this
+documentation with your web browser.
 
 ## Other Notes
 
