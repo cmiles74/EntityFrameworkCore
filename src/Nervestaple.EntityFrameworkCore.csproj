@@ -8,6 +8,7 @@
     <Company>Nervestaple Development</Company>
     <Product>Nervestaple.EntityFrameworkCore</Product>
     <Description>Wraps EntityFrameworkCore to help create database backed respositories</Description>
+    <RepositoryUrl>https://github.com/cmiles74/EntityFrameworkCore.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
