@@ -26,4 +26,4 @@ jobs:
       - name: Pack for Publishing
         run: dotnet pack --configuration Release
       - name: Publish Pre-release Package
-        run: dotnet nuget push src/bin/Release/*-rc.nupkg --api-key ${{secrets.CI_PUBLISH_PKG_PAT}} --source https://nuget.pkg.github.com/cmiles74/index.json
+        run: dotnet nuget push src/bin/Release/*-rc.nupkg --api-key ${{secrets.CI_PUBLISH_PKG_PAT}} --source https://nuget.pkg.github.com/cmiles74/index.json --skip-duplicate
